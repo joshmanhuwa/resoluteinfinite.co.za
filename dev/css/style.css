@@ -122,10 +122,13 @@
   color: #fff;
 }
 
-
 .mdl-button--accent.mdl-button--accent.mdl-button--raised, .mdl-button--accent.mdl-button--accent.mdl-button--fab {
   color: rgb(255,255,255);
   background-color: rgb(214, 88, 3) !important;
+}
+
+.contact-submit {
+  width: 100%;
 }
 
 /* ===================================
@@ -180,6 +183,9 @@
 7. Forms
 ==================================== */
 
+form {
+  padding: 0px 20px;
+}
 
 .form-control {
   color: #495057;
