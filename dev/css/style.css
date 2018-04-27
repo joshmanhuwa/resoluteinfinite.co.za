@@ -92,13 +92,13 @@
 
 .typewrite {
   color: #fff !important;
-  font-size: 20px;
+  font-size: 28px;
   font-family: 'Montserrat', sans-serif;
 
 }
 
 .shade {
-  
+
 }
 /* ===================================
 4. Buttons
@@ -139,6 +139,7 @@
   position: relative;
   z-index: 1;
   font-family: 'Montserrat', sans-serif !important;
+  background: rgba(0 ,0, 0, 0.5);
 }
 .area-padding {
   padding: 40px 0px;
