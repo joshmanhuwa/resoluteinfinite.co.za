@@ -70,12 +70,18 @@
           } else if (this.isDeleting && this.txt === '') {
           this.isDeleting = false;
           this.loopNum++;
+          console.log(this.loopNum);
           delta = 500;
           }
 
-          setTimeout(function() {
+          var sto = setTimeout(function() {
           that.tick();
           }, delta);
+
+          if(this.loopNum === this.toRotate.length){
+            clearTimeout(sto);
+            this.el.innerHTML = '<span class="wrap">Adrian is the Fifa Boss!</span>';
+          }
       };
 
       window.onload = function() {
