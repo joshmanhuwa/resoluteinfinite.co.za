@@ -80,7 +80,7 @@
 
           if(this.loopNum === this.toRotate.length){
             clearTimeout(sto);
-            this.el.innerHTML = '<span class="wrap">Adrian is the Fifa Boss!</span>';
+            this.el.innerHTML = '<span class="wrap">Have a good day!</span>';
           }
       };
 
@@ -112,7 +112,6 @@
                         <h3 class="">
                           <a href="" class="typewrite" data-period="2000" data-type='[ "Contact us today!", "Use the email form below.", "Fill in the required fields and click send.", "We will get back you as soon as possible." ]'>
                             <span class="wrap"></span>
-
                           </a>
                         </h3>
                     </div>
@@ -123,7 +122,7 @@
   </div>
 
   <div class="container">
-    <div class="row">
+    <div class="row" style="margin-top:70px;">
       <div class="col-md-6 col-xs-12 info-dox-card">
         <h3>Contact us</h3>
         <p>We would love to hear from you, send us an email, by using the email form.</p>
@@ -131,7 +130,50 @@
       </div>
       <div class="col-md-6 col-xs-12">
 
-
+        <form>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <input type="text" class="form-control" id="inputEmail4" placeholder="First Name">
+            </div>
+            <div class="form-group col-md-6">
+              <input type="text" class="form-control" id="inputPassword4" placeholder="Surname">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <input type="email" class="form-control" id="inputAddress" placeholder="Email">
+            </div>
+            <div class="form-group col-md-6">
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Phone Number">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputCity">City</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="form-group col-md-4">
+              <label for="inputState">State</label>
+              <select id="inputState" class="form-control">
+                <option selected>Choose...</option>
+                <option>...</option>
+              </select>
+            </div>
+            <div class="form-group col-md-2">
+              <label for="inputZip">Zip</label>
+              <input type="text" class="form-control" id="inputZip">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+                Check me out
+              </label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Sign in</button>
+        </form>
       </div>
     </div>
   </div>
