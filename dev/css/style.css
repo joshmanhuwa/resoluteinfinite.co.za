@@ -54,7 +54,7 @@
 2. Divs
 ==================================== */
 .main {
-  margin-top: 75px;
+  margin-top: 73px;
 }
 
 
@@ -88,6 +88,12 @@
   font-family: 'Montserrat', sans-serif;
   font-weight: 600 !important;
   color: #444
+}
+
+.typewrite {
+  color: #fff !important;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -125,15 +131,14 @@
 ==================================== */
 
 .banner-area {
-  background: rgba(0,0,0,0.70) url('img/advice-bg.jpg') no-repeat scroll center center / cover;
   display: block;
-  font-family: 'Montserrat', sans-serif !important;
   overflow: hidden;
   position: relative;
   z-index: 1;
+  font-family: 'Montserrat', sans-serif !important;
 }
 .area-padding {
-  padding: 90px 0px;
+  padding: 40px 0px;
 }
 .banner-contact span i {
   display: inline-block;
