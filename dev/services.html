@@ -8,7 +8,7 @@ Author URL: https://slickdesigns4u.com/trevor.com
 
 <head>
     <meta charset="utf-8">
-    <title>Resolute Infinte | Contact Us</title>
+    <title>Resolute Infinte | Services</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="" />
     <meta name="author" content="Trevor Tinotenda Manhuwa" />
@@ -19,7 +19,7 @@ Author URL: https://slickdesigns4u.com/trevor.com
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
     <!-- <link rel="stylesheet" href="./material.min.css"> -->
-    <link href="css/font-awesome.css" rel="stylesheet" />
+    <!-- <link rel="stylesheet" href="css/font-awesome.css" /> -->
     <link href="css/style.css" rel="stylesheet" />
 </head>
 
@@ -34,9 +34,9 @@ Author URL: https://slickdesigns4u.com/trevor.com
             <div class="collapse navbar-collapse" id="navbarsExampleDefault">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item"><a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a></li>
-                    <li class="nav-item"><a class="nav-link" href="services.html">Our Services</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="#">Our Services</a></li>
                     <li class="nav-item"><a class="nav-link" href="about-us.html">About Us</a></li>
-                    <li class="nav-item active"><a class="nav-link" href="#">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -86,7 +86,7 @@ Author URL: https://slickdesigns4u.com/trevor.com
 
               if(this.loopNum === this.toRotate.length){
                 clearTimeout(sto);
-                this.el.innerHTML = '<span class="wrap">Have a good day.</span>';
+                this.el.innerHTML = '<span class="wrap">Services.</span>';
               }
           };
 
@@ -102,78 +102,31 @@ Author URL: https://slickdesigns4u.com/trevor.com
               // INJECT CSS
               var css = document.createElement("style");
               css.type = "text/css";
-              css.innerHTML = ".typewrite > .wrap { border-right: 2px solid #fff}";
+              css.innerHTML = ".typewrite > .wrap { border-right: 2px solid rgb(214, 88, 3)}";
               document.body.appendChild(css);
           };
     </script>
 
-    <section>
-        <div id="page-header" style="background: url(img/background/contact-us-banner.jpg) no-repeat scroll center center / cover !important; width:auto;">
-            <div class="banner-area area-padding">
-                <div class="container shade">
-                    <div class="row">
-                        <div class="col-md-12 col-sm-12 col-xs-12">
-                            <div class="banner-content text-center">
-                                <h3 class="">
-                                    <a href="" class="typewrite" data-period="2000" data-type='[ "Contact us today!", "Use the email form below.", "Fill in the required fields and click send.", "We will get back you as soon as possible." ]'>
-                              <span class="wrap"></span>
-                            </a>
-                                </h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section>
+    <div class="main">
+      <section id="inner-headline">
         <div class="container">
-            <div class="row" style="margin-top:70px;">
-
-                <div class="col-md-4 col-xs-12 info-box-card">
-                    <h3>Contact us</h3>
-                    <p>We would love to hear from you, send us an email, by using the email form.</p>
-                    <div class="single-contact">
-                        <h5>Location :</h5>
-                        <a href="#"><i class="icon icon-map-marker"></i><span>128 Van Beek Street New Doornvontein, Joburg 2094</span></a>
-                        <a href="#"><i class="icon icon-phone"></i><span>+ 27 72 877 1515</span></a>
-                        <a href="#"><i class="icon icon-envelope-alt"></i><span>info@resoluteinfinite.co.za</span></a>
-                    </div>
-                </div>
-
-                <div class="col-md-8 col-xs-12">
-                    <form>
-                        <div class="form-row">
-                            <div class="form-group col-md-6">
-                                <input type="text" class="form-control" id="inputEmail4" placeholder="First Name*">
-                            </div>
-                            <div class="form-group col-md-6">
-                                <input type="text" class="form-control" id="inputPassword4" placeholder="Surname*">
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="form-group col-md-12">
-                                <input type="email" class="form-control" id="inputAddress" placeholder="Email*">
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="form-group col-md-12">
-                                <textarea class="form-control" rows="5" id="comment" placeholder="Your Message... *"></textarea>
-                            </div>
-                        </div>
-                        <button type="submit" class="contact-submit mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">Submit</button>
-                    </form>
-                </div>
-
+          <div class="row">
+            <div class="col-md-12">
+              <div class="span4">
+              <div class="inner-heading">
+                <h2>
+                  <a href="" class="typewrite" data-period="2000" data-type='[ "What we do." ]'>
+                    <span class="wrap"></span>
+                  </a>
+                </h2>
+              </div>
             </div>
+          </div>
         </div>
-    </section>
+      </section>
+    </div>
 
-    <section>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3580.119007508727!2d28.060170522314777!3d-26.192806695185336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950c2a2fd9016b%3A0x842d0336c949ffaa!2s128+Van+Beek+St%2C+New+Doornfontein%2C+Johannesburg%2C+2094%2C+South+Africa!5e0!3m2!1sen!2szw!4v1524848326378"
-            width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-    </section>
+
 
 
     <footer id="footer" class="footer">
