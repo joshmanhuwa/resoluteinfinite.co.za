@@ -156,12 +156,9 @@ margin-right: 15px;
 border-radius: 50%;
 }
 
-.about > h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 45px;
-}
 
 #about-h1 {
+  font-family: 'Titillium Web', sans-serif !important;
   margin-top: 0px !important;
 }
 /* ===================================
@@ -207,7 +204,23 @@ border-radius: 50%;
 .d-block-img {
   max-height: 400px;
 }
-/* ===================================
+
+.mb-0 {
+  font-family: 'Titillium Web', sans-serif !important;
+  margin: 0 !important;
+}
+.btn-link {
+  text-decoration: none !important;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  color: #d65803 !important;
+}
+.card-header {
+  background-color: transparent !important;
+}
+/* ===
+================================
 6. Banner
 ==================================== */
 
